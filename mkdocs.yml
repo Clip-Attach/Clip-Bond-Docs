@@ -1,4 +1,4 @@
-site_name: c++
+site_name: Clip Bond Docs
 site_description: Describe what your site is about  # 设置文档网站的描述
 site_url: 'https://example.com'  # 设置文档网站的 URL
 
@@ -56,7 +56,58 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/stylish.css
+
+
 nav:  # 定义导航栏
-  - Home: 
+  - AlarmList:
     - Home: index.md  # 首页链接
-    - Install c++: Install c++.md
+    - 01-Avaline_D: AlarmList/01-Avaline_D.md  #
+    - 02-CCD: AlarmList/02-CCD.md  # 相机
+    - 03-ClipBondCode: AlarmList/03-ClipBondCode.md  #
+    - 04-ClipBondUl: AlarmList/04-ClipBondUl.md  #
+    - 05-FlipBondCode: AlarmList/05-FlipBondCode.md  #
+    - 06-FlipBondUl: AlarmList/06-FlipBondUl.md  #
+    - 07-IntputContainer: AlarmList/07-IntputContainer.md  #
+    - 08-IntputContainerUl: AlarmList/08-IntputContainerUl.md  #
+    - 09-LoginUl: AlarmList/09-LoginUl.md  #
+    - 10-Map: AlarmList/10-Map.md  #
+    - 11-MaterialsDataDll: AlarmList/11-MaterialsDataDll.md  #
+    - 12-Temperature: AlarmList/12-Temperature.md  #
+    - 13-TinA: AlarmList/13-TinA.md  #
+    - 14-TinAUI: AlarmList/14-TinAUI.md  #
+    - 15-TinB: AlarmList/15-TinB.md  #
+    - 16-TinBUI: AlarmList/16-TinBUI.md  #
+    - 17-UITool: AlarmList/17-UITool.md  #
+    - 18-WaferTableCode: AlarmList/18-WaferTableCode.md  #
+    - 19-WaferTableUl: AlarmList/19-WaferTableUl.md  #
+    - 20-CarryUI: AlarmList/20-CarryUI.md
+  - SECS/GEM_Alarms:
+    - 00-RemoteConnection: SG_Alarms/00-RemoteConnection.md
+    - 01-Avaline_D: SG_Alarms/01-Avaline_D.md  #
+    - 02-CCD: SG_Alarms/02-CCD.md  # 相机
+    - 03-ClipBondCode: SG_Alarms/03-ClipBondCode.md  #
+    - 04-ClipBondUl: SG_Alarms/04-ClipBondUl.md  #
+    - 05-FlipBondCode: SG_Alarms/05-FlipBondCode.md  #
+    - 06-FlipBondUl: SG_Alarms/06-FlipBondUl.md  #
+    - 07-IntputContainer: SG_Alarms/07-IntputContainer.md  #
+    - 08-IntputContainerUl: SG_Alarms/08-IntputContainerUl.md  #
+    - 09-LoginUl: SG_Alarms/09-LoginUl.md  #
+    - 10-Map: SG_Alarms/10-Map.md  #
+    - 11-MaterialsDataDll: SG_Alarms/11-MaterialsDataDll.md  #
+    - 12-Temperature: SG_Alarms/12-Temperature.md  #
+    - 13-TinA: SG_Alarms/13-TinA.md  #
+    - 14-TinAUI: SG_Alarms/14-TinAUI.md  #
+    - 15-TinB: SG_Alarms/15-TinB.md  #
+    - 16-TinBUI: SG_Alarms/16-TinBUI.md  #
+    - 17-UITool: SG_Alarms/17-UITool.md  #
+    - 18-WaferTableCode: SG_Alarms/18-WaferTableCode.md  #
+    - 19-WaferTableUl: SG_Alarms/19-WaferTableUl.md  #
+    - All alarm: SG_Alarms/All alarm.md
+    - README: SG_Alarms/README.md  #
+  - SECS/GEM_Variables:
+    - README: SG_Variables/README.md  #
+  - SECS/GEM_Events:
+    - README: SG_Events/README.md  #
