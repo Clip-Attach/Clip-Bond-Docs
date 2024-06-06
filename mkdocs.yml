@@ -62,8 +62,39 @@ extra_css:
 
 
 nav:  # 定义导航栏
-  - AlarmList:
+  - Blog: 
     - Home: index.md  # 首页链接
+    - 1.Software Init:
+      - 1.1.Edit EPJ File: home/1.1.Edit_EPJ_File.md
+      - 1.2.Operator Interface: home/1.2.Operator_Interface.md
+      - 1.3.Client Needs: home/1.3.Client_Needs.md
+    - 2.Alarms:
+      - 2.1.with parameters: home/2.1.With_Parameters.md
+      - 2.2.without parameters: home/2.2.Without_Parameters.md
+    - 3.Variables:
+      - 3.1.Status Variables: home/3.1.Status_Variables.md
+      - 3.2.Data Variables: home/3.2.Data_Variables.md
+      - 3.3.Equipment Constants: home/3.3.Equipment_Constants.md
+    - 4.Events:
+      - 4.1.Collection Events: home/4.1.Collection_Events.md
+      - 4.2.Remote Commands: home/4.2.Remote_Commands.md
+      - 4.3.Recipe Management: home/4.3.Recipe_Management.md
+    - 5.Delivery Requirements:
+      - 5.1.Remote Commands: home/5.1.Remote_Commands.md
+      - 5.2.Custom Messaging: home/5.2.Custom_Messaging.md
+      - 5.3.Recipe Management: home/5.3.Recipe_Management.md
+    - 6.E142 (No training):
+      - 6.1.Wafer Mapping: home/6.1.Wafer_Mapping.md
+      - 6.2.Strip Mapping: home/6.2.Strip_Mapping.md
+    - 7.Delivery Requirements:
+      - 7.1.Communications Manual: home/7.1.Communications_Manual.md
+      - 7.2.Trace Data Collection: home/7.2.Trace_Data_Collection.md
+      - 7.3.Communication command test: home/7.3.Communication_command_test.md
+    - 8.Software Tutorials:
+      - 8.1.CIMConnect: home/8.1.CIMConnect.md
+      - 8.2.EquipmentTest: home/8.2.EquipmentTest.md
+      - 8.3.Remote Connection: home/8.3.Remote_Connection.md
+  - AlarmList:
     - 01-Avaline_D: AlarmList/01-Avaline_D.md  #
     - 02-CCD: AlarmList/02-CCD.md  # 相机
     - 03-ClipBondCode: AlarmList/03-ClipBondCode.md  #
@@ -85,7 +116,6 @@ nav:  # 定义导航栏
     - 19-WaferTableUl: AlarmList/19-WaferTableUl.md  #
     - 20-CarryUI: AlarmList/20-CarryUI.md
   - SECS/GEM_Alarms:
-    - 00-RemoteConnection: SG_Alarms/00-RemoteConnection.md
     - 01-Avaline_D: SG_Alarms/01-Avaline_D.md  #
     - 02-CCD: SG_Alarms/02-CCD.md  # 相机
     - 03-ClipBondCode: SG_Alarms/03-ClipBondCode.md  #
