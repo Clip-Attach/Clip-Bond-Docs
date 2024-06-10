@@ -138,6 +138,9 @@ nav:  # 定义导航栏
     - All alarm: SG_Alarms/All alarm.md
     - README: SG_Alarms/README.md  #
   - SECS/GEM_Variables:
+    - 01-Status Variables: SG_Variables/01-Status_Variables.md  #
+    - 02-Data Variables: SG_Variables/02-Data_Variables.md  # 相机
+    - 03-Equipment Constants: SG_Variables/03-Equipment_Constants.md  #
     - README: SG_Variables/README.md  #
   - SECS/GEM_Events:
     - README: SG_Events/README.md  #
