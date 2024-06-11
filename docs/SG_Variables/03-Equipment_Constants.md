@@ -2,28 +2,54 @@
 
 | ID   | Name   | Description                | Units | VarType | ValType | EventID | Private | Persistant | Min  | Max  | Default   |
 | ---- | ------ | -------------------------- | ----- | ------- | ------- | ------- | ------- | ---------- | ---- | ---- | --------- |
-| 1    | AC0301 | Equipment ID               |       | EC      | A       |         | 0       | 0          |      |      | A 32767   |
-| 2    | AC0302 | Model Number               |       | EC      | A       |         | 0       | 0          |      |      | A CB004   |
-| 3    | AC0303 | Software Version           |       | EC      | A       |         | 0       | 0          |      |      | A V1.0    |
-| 4    | AC0304 | Process Recipes            |       | EC      | A       |         | 0       | 0          |      |      | A TO220   |
-| 5    | AC0305 | Communication Parameters   |       | EC      | A       |         | 0       | 0          |      |      | A 0.0.0.0 |
-| 6    | AC0306 | Part No                    |       | EC      | A       |         | 0       | 0          |      |      | A         |
-| 7    | AC0307 | Camera resolution:dispense |       | EC      | F4      |         | 0       | 0          |      |      | F4 13.7   |
-| 8    | AC0308 | Camera resolution: uplook  |       | EC      | F4      |         | 0       | 0          |      |      | F4 20.3   |
-| 9    | AC0309 | Camera resolution: bond    |       | EC      | F4      |         | 0       | 0          |      |      | F4 14.3   |
-| 10   | AC0310 | Production Statistics      |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 11   | AC0311 | Total cutter count         |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 12   | AC0312 | Scrap Knife Count          |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 13   | AC0313 | Nozzle Count               |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 14   | AC0314 | Upper cutter count         |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 15   | AC0315 | Lower cutter count         |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 16   | AC0316 | Head binding UPH           |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 17   | AC0317 | Left Dispensing UPH        |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 18   | AC0318 | Right Dispensing UPH       |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 19   | AC0319 | UPH                        |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 20   | AC0320 | Head binding CT (ms)       |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 21   | AC0321 | Left glue CT(ms)           |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
-| 22   | AC0322 | Right dispensing CT(ms)    |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 1    | AC8301 | Equipment ID               |       | EC      | A       |         | 0       | 0          |      |      | A 32767   |
+| 2    | AC8302 | Model Number               |       | EC      | A       |         | 0       | 0          |      |      | A CB004   |
+| 3    | AC8303 | Software Version           |       | EC      | A       |         | 0       | 0          |      |      | A V1.0    |
+| 4    | AC8304 | Process Recipes            |       | EC      | A       |         | 0       | 0          |      |      | A TO220   |
+| 5    | AC8305 | Communication Parameters   |       | EC      | A       |         | 0       | 0          |      |      | A 0.0.0.0 |
+| 6    | AC8306 | Part No                    |       | EC      | A       |         | 0       | 0          |      |      | A         |
+| 7    | AC8307 | Camera resolution:dispense |       | EC      | A       |         | 0       | 0          |      |      | A 13.7    |
+| 8    | AC8308 | Camera resolution: uplook  |       | EC      | A       |         | 0       | 0          |      |      | A 20.3    |
+| 9    | AC8309 | Camera resolution: bond    |       | EC      | A       |         | 0       | 0          |      |      | A 14.3    |
+| 10   | AC8310 | Production Statistics      |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 11   | AC8311 | Total cutter count         |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 12   | AC8312 | Scrap Knife Count          |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 13   | AC8313 | Nozzle Count               |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 14   | AC8314 | Upper cutter count         |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 15   | AC8315 | Lower cutter count         |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 16   | AC8316 | Head binding UPH           |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 17   | AC8317 | Left Dispensing UPH        |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 18   | AC8318 | Right Dispensing UPH       |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 19   | AC8319 | UPH                        |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 20   | AC8320 | Head binding CT (ms)       |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 21   | AC8321 | Left glue CT(ms)           |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+| 22   | AC8322 | Right dispensing CT(ms)    |       | EC      | I8      |         | 0       | 0          |      |      | I8 0      |
+
+
+```sh
+8301=AC8301,Equipment ID,,EC,A,,0,0,,,A 32767,
+8302=AC8302,Model Number,,EC,A,,0,0,,,A CB004,
+8303=AC8303,Software Version,,EC,A,,0,0,,,A V1.0,
+8304=AC8304,Process Recipes,,EC,A,,0,0,,,A TO220,
+8305=AC8305,Communication Parameters,,EC,A,,0,0,,,A 0.0.0.0,
+8306=AC8306,Part No,,EC,A,,0,0,,,A,
+8307=AC8307,Camera resolution:dispense,,EC,A,,0,0,,,A 13.7,
+8308=AC8308,Camera resolution: uplook,,EC,A,,0,0,,,A 20.3,
+8309=AC8309,Camera resolution: bond,,EC,A,,0,0,,,A 14.3,
+8310=AC8310,Production Statistics,,EC,I8,,0,0,,,I8 0,
+8311=AC8311,Total cutter count,,EC,I8,,0,0,,,I8 0,
+8312=AC8312,Scrap Knife Count,,EC,I8,,0,0,,,I8 0,
+8313=AC8313,Nozzle Count,,EC,I8,,0,0,,,I8 0,
+8314=AC8314,Upper cutter count,,EC,I8,,0,0,,,I8 0,
+8315=AC8315,Lower cutter count,,EC,I8,,0,0,,,I8 0,
+8316=AC8316,Head binding UPH,,EC,I8,,0,0,,,I8 0,
+8317=AC8317,Left Dispensing UPH,,EC,I8,,0,0,,,I8 0,
+8318=AC8318,Right Dispensing UPH,,EC,I8,,0,0,,,I8 0,
+8319=AC8319,UPH,,EC,I8,,0,0,,,I8 0,
+8320=AC8320,Head binding CT (ms),,EC,I8,,0,0,,,I8 0,
+8321=AC8321,Left glue CT(ms),,EC,I8,,0,0,,,I8 0,
+8322=AC8322,Right dispensing CT(ms),,EC,I8,,0,0,,,I8 0,
+```
 
 
 # 3.Variables
