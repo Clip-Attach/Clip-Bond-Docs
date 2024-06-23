@@ -24,6 +24,24 @@
 
 
 
+
+| ID   | C#.Type | Cimetrix.Value |
+| ---- | ------- | -------------- |
+| 1    | string  | AValue         |
+| 2    | bool    | BoValue        |
+| 4    | sbyte   | I1Value        |
+| 5    | short   | I2Value        |
+| 6    | int     | I4Value        |
+| 7    | long    | I8Value        |
+| 8    | byte    | U1Value        |
+| 9    | ushort  | U2Value        |
+| 10   | uint    | U4Value        |
+| 11   | ulong   | U8Value        |
+| 12   | float   | F4Value        |
+| 13   | double  | F8Value        |
+
+
+
 ![](https://easyimage.ghuang.top/i/2024/06/18/183029-1.webp)
 
 ## GPT 引导

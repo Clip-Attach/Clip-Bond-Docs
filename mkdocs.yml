@@ -70,8 +70,7 @@ nav:  # 定义导航栏
       - 1.2.Operator Interface: home/1.2.Operator_Interface.md
       - 1.3.Client Needs: home/1.3.Client_Needs.md
     - 2.Alarms:
-      - 2.1.with parameters: home/2.1.With_Parameters.md
-      - 2.2.without parameters: home/2.2.Without_Parameters.md
+      - 2.Alarms: home/2.Alarms.md
     - 3.Variables:
       - 3.1.Status Variables: home/3.1.Status_Variables.md
       - 3.2.Data Variables: home/3.2.Data_Variables.md
