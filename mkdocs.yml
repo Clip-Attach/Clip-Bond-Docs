@@ -62,7 +62,7 @@ extra_css:
 
 
 nav:  # 定义导航栏
-  - Blog: 
+  - Tutorials: 
     - Home: index.md  # 首页链接
     - Summary: home/0-Summary.md
     - 1.Software Init:
@@ -77,9 +77,7 @@ nav:  # 定义导航栏
       - 3.3.Equipment Constants: home/3.3.Equipment_Constants.md
     - 4.Events:
       - 4.1.Collection Events: home/4.1.Collection_Events.md
-      - 4.2.Remote Commands: home/4.2.Remote_Commands.md
-      - 4.3.Recipe Management: home/4.3.Recipe_Management.md
-    - 5.Delivery Requirements:
+    - 5.Data Transfer:
       - 5.1.Remote Commands: home/5.1.Remote_Commands.md
       - 5.2.Custom Messaging: home/5.2.Custom_Messaging.md
       - 5.3.Recipe Management: home/5.3.Recipe_Management.md
