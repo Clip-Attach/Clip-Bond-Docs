@@ -67,7 +67,7 @@ nav:  # 定义导航栏
     - 1.Software Init:
       - 1.1.Edit EPJ File: home/1.1.Edit_EPJ_File.md
       - 1.2.Operator Interface: home/1.2.Operator_Interface.md
-      - 1.3.Client Needs: home/1.3.Client_Needs.md
+      - 1.3.Equipment States: home/1.3.Equipment_Processing_States.md
     - 2.Alarms:
       - 2.Alarms: home/2.Alarms.md
     - 3.Variables:
@@ -91,6 +91,7 @@ nav:  # 定义导航栏
       - 8.1.CIMConnect: home/8.1.CIMConnect.md
       - 8.2.EquipmentTest: home/8.2.EquipmentTest.md
       - 8.3.Remote Connection: home/8.3.Remote_Connection.md
+      - 8.4.Client_Needs: home/8.4.Client_Needs.md
   - AlarmList:
     - 01-Avaline_D: AlarmList/01-Avaline_D.md  #
     - 02-CCD: AlarmList/02-CCD.md  # 相机
