@@ -64,7 +64,6 @@ extra_css:
 nav:  # 定义导航栏
   - Tutorials: 
     - Home: index.md  # 首页链接
-    - Summary: home/0-Summary.md
     - 1.Software Init:
       - 1.1.Edit EPJ File: home/1.1.Edit_EPJ_File.md
       - 1.2.Operator Interface: home/1.2.Operator_Interface.md
