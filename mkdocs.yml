@@ -92,6 +92,24 @@ nav:  # 定义导航栏
       - 8.2.EquipmentTest: home/8.2.EquipmentTest.md
       - 8.3.Remote Connection: home/8.3.Remote_Connection.md
       - 8.4.Client_Needs: home/8.4.Client_Needs.md
+  - ASMPT: 
+    - 1.Software Init:
+      - 1.1.States Models: ASMPT/1.1.States_Models.md
+      - 1.2.Equipment Capabilities: ASMPT/1.2.Equipment_Capabilities.md
+      - 1.2.Operator Interface: ASMPT/1.2.Operator_Interface.md
+      - 1.3.Equipment States: ASMPT/1.3.Equipment_Processing_States.md
+    - 2.Alarms:
+      - 2.Alarms: ASMPT/2.Alarms.md
+    - 3.Variables:
+      - 3.1.Status Variables: ASMPT/3.1.Status_Variables.md
+      - 3.2.Data Variables: ASMPT/3.2.Data_Variables.md
+      - 3.3.Equipment Constants: ASMPT/3.3.Equipment_Constants.md
+    - 4.Events:
+      - 4.1.Collection Events: ASMPT/4.1.Collection_Events.md
+    - 5.Data Transfer:
+      - 5.1.Remote Commands: ASMPT/5.1.Remote_Commands.md
+      - 5.2.Custom Messaging: ASMPT/5.2.Custom_Messaging.md
+      - 5.3.Recipe Management: ASMPT/5.3.Recipe_Management.md
   - AlarmList:
     - 01-Avaline_D: AlarmList/01-Avaline_D.md  #
     - 02-CCD: AlarmList/02-CCD.md  # 相机
