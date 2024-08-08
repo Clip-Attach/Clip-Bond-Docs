@@ -9,9 +9,8 @@
 
 
 ```sh
-8801=AC0801,Reset the discharge box station before operating!,After resetting the discharge box station& start the operation!,1001,2001,6,
-8802=AC0802,Abnormal detection at the outlet of input box,Abnormal detection at the outlet of input box,1001,2001,6,
-8803=AC0803,Illegal parameter entered!,Illegal parameter entered!,1001,2001,6,
+8801=AC0801,Entering illegal parameters,Entering illegal parameters,1001,2001,6,
+8802=AC0802,Tips! Please initialize before proceeding!,Tips! Please initialize before proceeding!,1001,2001,6,
+8803=AC0803,Tips! Please pause before proceeding!,Tips! Please pause before proceeding!,1001,2001,6,
 
 ```
-

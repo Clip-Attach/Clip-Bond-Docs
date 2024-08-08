@@ -31,7 +31,7 @@
 | 26   | AC0326 | P&P Y back to the origin failed!                             | 1001       | 2001         | 6          | 绑头Y回原点失败！                    |
 | 27   | AC0327 | P&P Z back to the origin failed!                             | 1001       | 2001         | 6          | 绑头Z回原点失败！                    |
 | 28   | AC0328 | Camera axis return to home position failed!                  | 1001       | 2001         | 6          | 相机轴回原点失败！                   |
-| 29   | AC0329 | The P&P station is running automatically, please stop before operating! | 1001       | 2001         | 6          | 绑头工位自动运行中，请停止后在操作！ |
+| 29   | AC0329 | The P&P station is running automatically;please stop before operating! | 1001       | 2001         | 6          | 绑头工位自动运行中，请停止后在操作！ |
 | 30   | AC0330 | Cutter return to home position failed!                       | 1001       | 2001         | 6          | 切刀回原点失败！                     |
 | 31   | AC0331 | P&P Rotate back to home position failed!                     | 1001       | 2001         | 6          | 焊头旋转回原点失败！                 |
 | 32   | AC0332 | Camera Y Back to Home failed!                                | 1001       | 2001         | 6          | 相机Y回原点失败！                    |
@@ -51,11 +51,51 @@
 
 
 
-
 ```sh
-8301=AC0301,Abnormal position of binding head Z!,Abnormal position of binding head Z!,1001,2001,6,
-8302=AC0302,Abnormal position of binding head Y!,Abnormal position of binding head Y!,1001,2001,6,
-8303=AC0303,Binding buffer exited abnormally!,Binding buffer exited abnormally!,1001,2001,6,
-8304=AC0304,Abnormal leak detection of suction nozzle!,Abnormal leak detection of suction nozzle!,1001,2001,6,
+8301=AC0301,The P&P Buffer exited abnormally!,The P&P Buffer exited abnormally!,1001,2001,6,
+8302=AC0302,Abnormal nozzle detection!,Abnormal nozzle detection!,1001,2001,6,
+8303=AC0303,The suction nozzle detects the camera timeout!,The suction nozzle detects the camera timeout!,1001,2001,6,
+8304=AC0304,The P&P Buffer receives a pause command!,The P&P Buffer receives a pause command!,1001,2001,6,
+8305=AC0305,Waiting for the camera to detect the axis timeout!,Waiting for the camera to detect the axis timeout!,1001,2001,6,
+8306=AC0306,Clip pickup force detection anomaly!,Clip pickup force detection anomaly!,1001,2001,6,
+8307=AC0307,Clip weld force detection anomaly!,Clip weld force detection anomaly!,1001,2001,6,
+8308=AC0308,P&P contact detection is abnormal!,P&P contact detection is abnormal!,1001,2001,6,
+8309=AC0309,The number of times the cutter has been used has reached its limit!,The number of times the cutter has been used has reached its limit!,1001,2001,6,
+8310=AC0310,Solid ClipPR Buffer exited abnormally!,Solid ClipPR Buffer exited abnormally!,1001,2001,6,
+8311=AC0311,The P&P Buffer receives a pause command!,The P&P Buffer receives a pause command!,1001,2001,6,
+8312=AC0312,Waiting for P&P Y to move to the safe bit timeout!,Waiting for P&P Y to move to the safe bit timeout!,1001,2001,6,
+8313=AC0313,P&P detects camera timeout!,P&P detects camera timeout!,1001,2001,6,
+8314=AC0314,P&P framework positioning anomaly!,P&P framework positioning anomaly!,1001,2001,6,
+8315=AC0315,P&P frame glue spot detection abnormality!,P&P frame glue spot detection abnormality!,1001,2001,6,
+8316=AC0316,P&P Framework Clip Detection Exception!,P&P Framework Clip Detection Exception!,1001,2001,6,
+8317=AC0317,P&P Buffer exit timeout!,P&P Buffer exit timeout!,1001,2001,6,
+8318=AC0318,Solid ClipPR Buffer exit timeout!,Solid ClipPR Buffer exit timeout!,1001,2001,6,
+8319=AC0319,P&P Z is not in a safe position!,P&P Z is not in a safe position!,1001,2001,6,
+8320=AC0320,Wait for the strip positioning timeout!,Wait for the strip positioning timeout!,1001,2001,6,
+8321=AC0321,The suction nozzle detects the camera timeout!,The suction nozzle detects the camera timeout!,1001,2001,6,
+8322=AC0322,Abnormal nozzle detection!,Abnormal nozzle detection!,1001,2001,6,
+8323=AC0323,Please stop and then operate!,Please stop and then operate!,1001,2001,6,
+8324=AC0324,Please initialize it before operation!,Please initialize it before operation!,1001,2001,6,
+8325=AC0325,P&P X back to the origin failed!,P&P X back to the origin failed!,1001,2001,6,
+8326=AC0326,P&P Y back to the origin failed!,P&P Y back to the origin failed!,1001,2001,6,
+8327=AC0327,P&P Z back to the origin failed!,P&P Z back to the origin failed!,1001,2001,6,
+8328=AC0328,Camera axis return to home position failed!,Camera axis return to home position failed!,1001,2001,6,
+8329=AC0329,The P&P station is running automatically;please stop before operating!,The P&P station is running automatically;please stop before operating!,1001,2001,6,
+8330=AC0330,Cutter return to home position failed!,Cutter return to home position failed!,1001,2001,6,
+8331=AC0331,P&P Rotate back to home position failed!,P&P Rotate back to home position failed!,1001,2001,6,
+8332=AC0332,Camera Y Back to Home failed!,Camera Y Back to Home failed!,1001,2001,6,
+8333=AC0333,Solid crystal coordinates are acquired abnormally!,Solid crystal coordinates are acquired abnormally!,1001,2001,6,
+8335=AC0335,Please pick the correct coordinate point!,Please pick the correct coordinate point!,1001,2001,6,
+8336=AC0336,P&P XY is not in the specified position!,P&P XY is not in the specified position!,1001,2001,6,
+8337=AC0337,The altimetry contact is abnormal!,The altimetry contact is abnormal!,1001,2001,6,
+8338=AC0338,P&P Z altimetry failed!,P&P Z altimetry failed!,1001,2001,6,
+8339=AC0339,Punch-cut altimetry failed!,Punch-cut altimetry failed!,1001,2001,6,
+8340=AC0340,Camera Y has reached the first one.,Camera Y has reached the first one.,1001,2001,6,
+8341=AC0341,Camera Y has reached the last one.,Camera Y has reached the last one.,1001,2001,6,
+8342=AC0342,P&P Z is not in a safe position!,P&P Z is not in a safe position!,1001,2001,6,
+8343=AC0343,P&P Y axis is not in the safe position!,P&P Y axis is not in the safe position!,1001,2001,6,
+8344=AC0344,The camera Y-axis is not in the safe position!,The camera Y-axis is not in the safe position!,1001,2001,6,
+8345=AC0345,P&P has reached the first one.,P&P has reached the first one.,1001,2001,6,
+8346=AC0346,P&P has reached the last one.,P&P has reached the last one.,1001,2001,6,
 
 ```

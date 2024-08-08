@@ -54,74 +54,43 @@
 
 ## GPT 引导2
 
-- 帮我转换并翻译表格中的内容：
+- 帮我把表格转换成 [id=name, description, text, setEventID, clearEventID, alarm code (ALCD), ]
+
+例如：
+
 - 把下面的表格
 
 ```sh
-| ID   | Name   | description                             | setEventID | clearEventID | alarm code | Text                                                         |
-| ---- | ------ | --------------------------------------- | ---------- | ------------ | ---------- | ------------------------------------------------------------ |
-| 1    | AC0101 | 请停止设备后在操作！                    | 1001       | 2001         | 6          | Please stop the device before proceeding!                    |
-| 2    | AC0102 | 输入非法参数                            | 1001       | 2001         | 6          | Entering illegal parameters                                  |
-| 3    | AC0103 | 左点胶X故障                             | 1001       | 2001         | 6          | Left dispensing X malfunction                                |
-| 39   | AC0139 | 伺服电机加使能中 & 请稍等！              | 1001       | 2001         | 6          | Servo motor enable & please wait!                             |
+| ID   | Name   | Description                                         | setEventID | clearEventID | alarm code | Text                       |
+| ---- | ------ | --------------------------------------------------- | ---------- | ------------ | ---------- | -------------------------- |
+| 1    | AC0101 | Door switch detection is abnormal!                  | 1001       | 2001         | 6          | 门开关检测异常！           |
+| 2    | AC0102 | Window already open;no need to open it again        | 1001       | 2001         | 6          | 窗口已打开,无需重复打开    |
+| 3    | AC0103 | Startup failed;please reset and start again!        | 1001       | 2001         | 6          | 启动失败，请复位后再启动！ |
+| 4    | AC0104 | Failed to load power supply!                        | 1001       | 2001         | 6          | 加载电源失败！             |
 ```
 
 - 转换成 
 
 ```sh
 [id=name, description, text, setEventID, clearEventID, alarm code (ALCD), ]
-8101=AC0101,Please stop the equipment before operating!,Please stop the device before proceeding!,1001,2001,6,
-8102=AC0102,Entering illegal parameters,Entering illegal parameters,1001,2001,6,
-8103=AC0103,Left dispensing X malfunction,Left dispensing X malfunction,1001,2001,6,
-8139=AC0139,Servo motor enable & please wait!,Servo motor enable & please wait!,1001,2001,6,
+8101=AC0101,Door switch detection is abnormal!,Door switch detection is abnormal!,1001,2001,6,
+8102=AC0102,Window already open;no need to open it again,Window already open;no need to open it again,1001,2001,6,
+8103=AC0103,Startup failed;please reset and start again!,Startup failed;please reset and start again!,1001,2001,6,
+8139=AC0104,Failed to load power supply!,Failed to load power supply!,1001,2001,6,
 ```
 
 - 注意事项
-- 1、其中 | description | 列的内容,需要翻译
-- 2、其中 | Text | 列的内容,不要出现中文
-- 3、输出内容去除掉  [id=name, description, text, setEventID, clearEventID, alarm code (ALCD), ]
+- 1、输出内容去除掉  [id=name, description, text, setEventID, clearEventID, alarm code (ALCD), ]
+- 2、description和text相同都是英文
 
-
-## GPT 引导3
-
-- 帮我转换并翻译表格中的内容：
-- 把下面的表格
+最终输出内容：
 
 ```sh
-| ID   | Name   | description                                           | setEventID | clearEventID | alarm code | Text                                              |
-| ---- | ------ | ----------------------------------------------------- | ---------- | ------------ | ---------- | ------------------------------------------------- |
-| 1    | AC1701 | 请先选择文件&再加载                                | 1001       | 2001         | 6          | Please select a file before loading               |
-| 2    | AC1702 | 请选择正确文件&再加载                              | 1001       | 2001         | 6          | Please select the correct file before loading     |
-| 3    | AC1703 | 请先选择文件&再删除                                | 1001       | 2001         | 6          | Please select a file before deleting it           |
-| 4    | AC1704 | 请先选择参数文件&再加载                            | 1001       | 2001         | 6          | Please select a parameter file before loading     |
-| 5    | AC1705 | 请选择正确参数文件&再加载                          | 1001       | 2001         | 6          | Please select the correct parameter file before loading |
-| 6    | AC1706 | 请输入新的文件名                                    | 1001       | 2001         | 6          | Please enter a new file name                      |
-| 7    | AC1707 | 请先选择正确参数文件&再复制                        | 1001       | 2001         | 6          | Please select the correct parameter file before copying |
-| 8    | AC1708 | 请先选择参数文件&再复制                            | 1001       | 2001         | 6          | Please select the parameter file first before copying |
-| 9    | AC1709 | 请先选择参数文件&再删除                            | 1001       | 2001         | 6          | Please select the parameter file first before deleting it |
+8101=AC0101,Door switch detection is abnormal!,Door switch detection is abnormal!,1001,2001,6,
+8102=AC0102,Window already open;no need to open it again,Window already open;no need to open it again,1001,2001,6,
+8103=AC0103,Startup failed;please reset and start again!,Startup failed;please reset and start again!,1001,2001,6,
+8139=AC0104,Failed to load power supply!,Failed to load power supply!,1001,2001,6,
 ```
 
-- 转换成 
-
-```sh
+很好，下面我提供给你表格。你帮我转换成固定的格式
 [id=name, description, text, setEventID, clearEventID, alarm code (ALCD), ]
-9701=AC1701,Please select a file before loading,Please select a file before loading,1001,2001,6,
-9702=AC1702,Please select the correct file before loading,Please select the correct file before loading,1001,2001,6,
-9703=AC1703,Please select a file before deleting it,Please select a file before deleting it,1001,2001,6,
-9704=AC1704,Please select a parameter file before loading,Please select a parameter file before loading,1001,2001,6,
-9705=AC1705,Please select the correct parameter file before loading,Please select the correct parameter file before loading,1001,2001,6,
-9706=AC1706,Please enter a new file name,Please enter a new file name,1001,2001,6,
-9707=AC1707,Please select the correct parameter file before copying,Please select the correct parameter file before copying,1001,2001,6,
-9708=AC1708,Please select the parameter file first before copying,Please select the parameter file first before copying,1001,2001,6,
-9709=AC1709,Please select the parameter file first before deleting it,Please select the parameter file first before deleting it,1001,2001,6,
-```
-
-- 注意事项
-[id=name, description, text, setEventID, clearEventID, alarm code (ALCD), ]
-- 1、[description] 列的内容,中文需要翻译成英文
-- 2、[text] 列的内容,中文需要翻译成英文
-- 3、[id] 列的内容,以9开头
-- 4、输出内容去除掉  [id=name, description, text, setEventID, clearEventID, alarm code (ALCD), ]
-
-
-
