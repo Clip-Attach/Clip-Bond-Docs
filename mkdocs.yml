@@ -132,14 +132,14 @@ nav:  # 定义导航栏
     - 19-WaferTableUl: AlarmList/19-WaferTableUl.md  #
     - 20-CarryUI: AlarmList/20-CarryUI.md
   - SECS/GEM_Alarms:
-    - 01-Avaline_D: SG_Alarms/01-Avaline_D.md  #
+    - 01-Avaline_C: SG_Alarms/01-Avaline_C.md  #
     - 02-CCD: SG_Alarms/02-CCD.md  # 相机
     - 03-ClipBondCode: SG_Alarms/03-ClipBondCode.md  #
     - 04-ClipBondUl: SG_Alarms/04-ClipBondUl.md  #
-    - 05-FlipBondCode: SG_Alarms/05-FlipBondCode.md  #
-    - 06-FlipBondUl: SG_Alarms/06-FlipBondUl.md  #
-    - 07-IntputContainer: SG_Alarms/07-IntputContainer.md  #
-    - 08-IntputContainerUl: SG_Alarms/08-IntputContainerUl.md  #
+    - 05-ClipFeederCode: SG_Alarms/05-ClipFeederCode.md  #
+    - 06-ClipFeederUI: SG_Alarms/06-ClipFeederUI.md  #
+    - 07-CarryABC: SG_Alarms/07-CarryABC.md  #
+    - 08-CarryUI: SG_Alarms/08-CarryUI.md  #
     - 09-LoginUl: SG_Alarms/09-LoginUl.md  #
     - 10-Map: SG_Alarms/10-Map.md  #
     - 11-MaterialsDataDll: SG_Alarms/11-MaterialsDataDll.md  #
@@ -149,8 +149,6 @@ nav:  # 定义导航栏
     - 15-TinB: SG_Alarms/15-TinB.md  #
     - 16-TinBUI: SG_Alarms/16-TinBUI.md  #
     - 17-UITool: SG_Alarms/17-UITool.md  #
-    - 18-WaferTableCode: SG_Alarms/18-WaferTableCode.md  #
-    - 19-WaferTableUl: SG_Alarms/19-WaferTableUl.md  #
     - All alarm: SG_Alarms/All alarm.md
     - README: SG_Alarms/README.md  #
   - SECS/GEM_Variables:
