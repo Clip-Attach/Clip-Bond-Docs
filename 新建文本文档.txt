@@ -1,0 +1,121 @@
+
+
+CreateDispensingEdgePR:
+
+button1 创建参考点搜索区域         Create reference search area
+button3  创建列边缘搜索区域        Create Column Edge Search Area
+button6  创建参考点PR                 Create reference PR
+button8  创建行边缘搜索区域        Create row edge search area
+button2  修改PR轮廓                    Modify PR outline
+label2 边缘阀值                            Edge Threshold
+
+button4 示教开始                  Teach starts
+button5 示教撤销                  Teach cancel
+button7 示教完成                  Teach completed
+
+ThresholdShow items
+大点示教     Big p.teach       Big point teach 
+小点示教     Small p.teach    Small point teach 
+
+
+CreateDispensingPR：
+
+button1 创建参考点搜索区域  Create reference search area
+button6 创建参考点PR           Create reference PR
+button2 修改PR轮廓              Modify PR outline
+button4 示教开始                  Teach starts
+button5 示教撤销                  Teach cancel
+button7  示教完成                 Teach completed
+
+ThresholdShow items
+大点示教      Big p.teach       Big point teach 
+小点示教      Small p.teach    Small point teach 
+
+
+CreateEdgePR：
+
+button3 创建参考点搜索区域   Create reference search area
+button6 创建参考点PR            Create reference PR
+button1 创建检测PR1             Create detection PR1
+button9 创建列边缘搜索区域   Create Column Edge Search Area
+button10 创建检测PR2           Create Detection PR2
+button8 创建行边缘搜索区域   Create row edge search area
+button2 修改PR轮廓               Modify PR outline
+label2 边缘阀值                      Edge Threshold
+button4 示教开始                   Teach starts
+button5 示教撤销                   Teach cancel
+button7 示教完成                   Teach completed
+
+
+CreatePR：
+
+button6 创建参考点PR              Create reference PR
+button3 创建参考点搜索区域     Create reference search area
+button1 创建检测PR                 Create detection PR
+button2 修改PR轮廓                 Modify PR outline
+button4 示教开始                     Teach starts
+button5 示教撤销                     Teach cancel
+button7 示教完成                     Teach completed
+
+PRTeach items
+参考点PR示教                    Reference PR Teach 
+检测PR示教                       Detecting PR Teach 
+
+
+CreateWaferPR:
+ 
+button1 创建墨点搜索区域       Creating an Ink Spot Search Area
+button3 创建缺角搜索区域       Create Truncated  Search Area
+button4 清空缺角搜索区域       Clear Truncated  Search Area
+button6 创建晶粒PR                Create die PR
+button2 修改PR轮廓                Modify PR outlineS
+
+
+
+EditPR:
+uiButton1 退出                      Exit
+uiButton2 确定修改PR           Confirm Modify PR
+uiButton3 取消修改PR           Cancel Modify PR
+Rectangle 创建矩形区域         Creates rectangular area
+
+shape items
+矩形                Rectangles
+画笔                Brushes
+
+PenMode items
+画笔直径1              Brush diameter 1
+画笔直径2              Brush diameter 2
+画笔直径3              Brush diameter 3
+画笔直径4              Brush diameter 4
+画笔直径5              Brush diameter 5
+画笔直径6              Brush diameter 6
+画笔直径7              Brush diameter 7
+画笔直径8              Brush diameter 8
+画笔直径9              Brush diameter 9
+画笔直径10            Brush diameter 10
+
+
+
+PosEdgePR：
+
+uiButton1 退出                                 Exit
+uiButton2 创建位置引导PR                Create Pos. Guide PRs
+uiButton3 创建位置引导搜索区域       Create Pos. Guide search area
+uiButton4 编辑位置引导PR轮廓          Edit Pos. Guide PR outline
+uiButton5 创建列边缘搜索区域           Create column edge search area
+uiButton6 创建行边缘搜索区域           Create row edge search area
+label2 边缘阀值                                 Edge Threshold
+label3 Pad1位置(um)                         Pad1 position (um)
+
+
+
+PosPR：
+uiButton1 退出                                  Exit
+uiButton2 创建位置引导PR                 Create Pos. Guide PRs
+uiButton3 创建位置引导搜索区域        Create Pos. Guide search area
+uiButton4 编辑位置引导PR轮廓           Edit Pos. Guide PR outline
+label3 Pad1位置(um)                         Pad1 position (um)
+
+
+
+
