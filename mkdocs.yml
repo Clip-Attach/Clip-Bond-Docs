@@ -138,7 +138,10 @@ nav:  # 定义导航栏
       - 5.2.Custom Messaging: ASMPT/5.2.Custom_Messaging.md
       - 5.3.Recipe Management: ASMPT/5.3.Recipe_Management.md
   - SECS/E142:
-    - CimetrixInstall: E142/CimetrixInstall.md
+    - Index: E142/index.md
+    - Confirming CIM142 Limits and Customer Needs: E142/index2.md
+    - ALPS: E142/ALPS.md
     - StripMap: E142/StripMap.md  #
     - WaferMap: E142/WaferMap.md  #
-    - StripAndWafer: E142/StripAndWafer.md  #
+    - TransferMap: E142/TransferMap.md  #
+    - CimetrixInstall: E142/CimetrixInstall.md
